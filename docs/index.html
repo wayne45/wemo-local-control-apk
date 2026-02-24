@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeMo Local Control APK</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #24292e;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem 1.5rem;
+            background: #fff;
+        }
+        h1 {
+            font-size: 2rem;
+            border-bottom: 1px solid #eaecef;
+            padding-bottom: 0.3rem;
+            margin-bottom: 1rem;
+        }
+        h2 {
+            font-size: 1.5rem;
+            border-bottom: 1px solid #eaecef;
+            padding-bottom: 0.3rem;
+            margin-top: 1.5rem;
+            margin-bottom: 0.8rem;
+        }
+        p {
+            margin-bottom: 0.8rem;
+        }
+        a {
+            color: #0366d6;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        code {
+            background: #f6f8fa;
+            padding: 0.2em 0.4em;
+            border-radius: 3px;
+            font-size: 0.9em;
+        }
+        table {
+            border-collapse: collapse;
+            margin-bottom: 1rem;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid #dfe2e5;
+            padding: 0.5rem 0.8rem;
+            text-align: left;
+        }
+        th {
+            background: #f6f8fa;
+            font-weight: 600;
+        }
+        ol, ul {
+            margin-bottom: 0.8rem;
+            padding-left: 2rem;
+        }
+        li {
+            margin-bottom: 0.3rem;
+        }
+        .download-btn {
+            display: inline-block;
+            background: #2ea44f;
+            color: #fff;
+            padding: 0.7rem 1.5rem;
+            border-radius: 6px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin: 1rem 0;
+            text-decoration: none;
+        }
+        .download-btn:hover {
+            background: #2c974b;
+            text-decoration: none;
+        }
+        .notice {
+            background: #fff8c5;
+            border: 1px solid #d4a72c;
+            border-radius: 6px;
+            padding: 1rem;
+            margin-bottom: 1rem;
+        }
+        .notice strong {
+            color: #9a6700;
+        }
+        .disclaimer {
+            background: #f6f8fa;
+            border: 1px solid #d0d7de;
+            border-radius: 6px;
+            padding: 1rem;
+            margin-top: 1rem;
+            font-size: 0.9rem;
+            color: #57606a;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            margin: 0.5rem 0;
+        }
+    </style>
+</head>
+<body>
+
+<h1>WeMo Local Control APK</h1>
+<p><strong>WeMo-PRODUCTION-rc1.apk</strong> — WeMo production release, version 1.24.</p>
+
+<a class="download-btn" href="https://github.com/waynehuang45/wemo-local-control-apk/raw/main/WeMo-PRODUCTION-rc1.apk">Download APK</a>
+
+<h2>Overview</h2>
+<p>This is an older production release of the WeMo Android app that supports <strong>local control</strong> of WeMo devices via <strong>UPnP</strong> (Universal Plug and Play). Unlike newer versions that rely on cloud connectivity, this version can discover and control WeMo devices directly on the local network.</p>
+
+<h2>Key Feature</h2>
+<ul>
+    <li><strong>Local UPnP Control</strong> — Communicate with WeMo devices over the local network without requiring cloud services or an internet connection.</li>
+</ul>
+
+<h2>Details</h2>
+<table>
+    <tr><th>Field</th><th>Value</th></tr>
+    <tr><td>File</td><td><code>WeMo-PRODUCTION-rc1.apk</code></td></tr>
+    <tr><td>Version</td><td>1.24</td></tr>
+    <tr><td>Platform</td><td>Android</td></tr>
+    <tr><td>Protocol</td><td>UPnP</td></tr>
+    <tr><td>Build Type</td><td>Production (RC1)</td></tr>
+    <tr><td>MD5</td><td><code>9fcf6ff824a3f4dd7626e22009b206eb</code></td></tr>
+</table>
+
+<h2>Installation</h2>
+<ol>
+    <li>Copy the APK to your Android device.</li>
+    <li>Enable <strong>Install from unknown sources</strong> in device settings.</li>
+    <li>Open the APK file to install.</li>
+</ol>
+
+<h2>Usage</h2>
+<ol>
+    <li>Ensure your Android device and WeMo devices are on the same local network (connected to the same Wi-Fi).</li>
+    <li>Launch the WeMo app.</li>
+    <li>The app will discover WeMo devices on the network via UPnP.</li>
+    <li>Control devices (on/off, scheduling, etc.) directly through local communication.</li>
+</ol>
+
+<h2>Security Scan</h2>
+<p>This APK has been scanned on <a href="https://www.virustotal.com/gui/home/upload">VirusTotal</a> and confirmed to contain no viruses.</p>
+<ul>
+    <li><a href="https://www.virustotal.com/gui/file/f85aec9d8e7ea2ab64a7d092efb34546e7eb9a452b703dddaf47f8346b4ff754/detection">VirusTotal Detection Report</a></li>
+</ul>
+<img src="../snapshots/virustotal-scan-result.png" alt="VirusTotal Scan Result">
+
+<h2>Important Notice</h2>
+<div class="notice">
+    <p><strong>Warning:</strong> This APK may be automatically upgraded to the newest WeMo version by Google Play Store, which removes local control support. To prevent this, manually disable auto-update for the WeMo app in the Google Play Store:</p>
+    <ol>
+        <li>Open <strong>Google Play Store</strong>.</li>
+        <li>Search for <strong>WeMo</strong> and open the app page.</li>
+        <li>Tap the <strong>three-dot menu</strong> (⋮) in the top-right corner.</li>
+        <li>Uncheck <strong>Enable auto update</strong>.</li>
+    </ol>
+</div>
+
+<h2>Notes</h2>
+<ul>
+    <li>This is a legacy release preserved for local control capability.</li>
+    <li>No internet connection is required for device control once discovered.</li>
+    <li>Compatibility with newer Android versions is not guaranteed.</li>
+</ul>
+
+<div class="disclaimer">
+    <h2 style="border: none; margin-top: 0;">Disclaimer</h2>
+    <p>This repository contains a legacy WeMo APK that supports local UPnP control.</p>
+    <p>The APK is proprietary software owned by Belkin. This repository is for archival purposes only.</p>
+</div>
+
+</body>
+</html>
