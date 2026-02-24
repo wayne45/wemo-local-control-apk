@@ -69,6 +69,13 @@
         li {
             margin-bottom: 0.3rem;
         }
+        .btn-group {
+            display: flex;
+            gap: 0.8rem;
+            align-items: center;
+            margin: 1rem 0;
+            flex-wrap: wrap;
+        }
         .download-btn {
             display: inline-block;
             background: #2ea44f;
@@ -77,11 +84,25 @@
             border-radius: 6px;
             font-size: 1.1rem;
             font-weight: 600;
-            margin: 1rem 0;
             text-decoration: none;
         }
         .download-btn:hover {
             background: #2c974b;
+            text-decoration: none;
+        }
+        .repo-btn {
+            display: inline-block;
+            background: #fff;
+            color: #24292e;
+            padding: 0.7rem 1.5rem;
+            border-radius: 6px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            text-decoration: none;
+            border: 1px solid #d0d7de;
+        }
+        .repo-btn:hover {
+            background: #f6f8fa;
             text-decoration: none;
         }
         .notice {
@@ -115,7 +136,10 @@
 <h1>WeMo Local Control APK</h1>
 <p><strong>WeMo-PRODUCTION-rc1.apk</strong> — WeMo production release, version 1.24.</p>
 
-<a class="download-btn" href="https://github.com/waynehuang45/wemo-local-control-apk/raw/main/WeMo-PRODUCTION-rc1.apk">Download APK</a>
+<div class="btn-group">
+    <a class="download-btn" href="https://github.com/wayne45/wemo-local-control-apk/raw/main/WeMo-PRODUCTION-rc1.apk">Download APK</a>
+    <a class="repo-btn" href="https://github.com/wayne45/wemo-local-control-apk">GitHub Repository</a>
+</div>
 
 <h2>Overview</h2>
 <p>This is an older production release of the WeMo Android app that supports <strong>local control</strong> of WeMo devices via <strong>UPnP</strong> (Universal Plug and Play). Unlike newer versions that rely on cloud connectivity, this version can discover and control WeMo devices directly on the local network.</p>
